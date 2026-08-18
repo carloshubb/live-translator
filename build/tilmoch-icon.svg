@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Tilmoch app icon">
+  <defs>
+    <linearGradient id="iconGrad" x1="14" y1="40" x2="110" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4FC3F7"></stop>
+      <stop offset="0.55" stop-color="#81D4FA"></stop>
+      <stop offset="1" stop-color="#4DD0E1"></stop>
+    </linearGradient>
+    <linearGradient id="iconSheen" x1="0" y1="0" x2="0" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.06"></stop>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"></stop>
+    </linearGradient>
+    <clipPath id="tileClip"><rect x="4" y="4" width="120" height="120" rx="30"></rect></clipPath>
+  </defs>
+  
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="#0F1115"></rect>
+  <g clip-path="url(#tileClip)">
+    <rect x="4" y="4" width="120" height="120" fill="url(#iconSheen)"></rect>
+    
+    <path d="M64 20 L70.89 47.37 L95.11 32.89 L80.63 57.11 L108 64 L80.63 70.89 L95.11 95.11 L70.89 80.63 L64 108 L57.11 80.63 L32.89 95.11 L47.37 70.89 L20 64 L47.37 57.11 L32.89 32.89 L57.11 47.37 Z" fill="none" stroke="url(#iconGrad)" stroke-width="1.5" opacity="0.10"></path>
+  </g>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="29.25" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.5"></rect>
+  
+  <g fill="url(#iconGrad)">
+    <rect x="22" y="50" width="8" height="28" rx="4"></rect>
+    <rect x="34" y="38" width="8" height="52" rx="4"></rect>
+    <rect x="46" y="47" width="8" height="34" rx="4"></rect>
+    <rect x="70" y="46" width="36" height="8" rx="4"></rect>
+    <rect x="70" y="60" width="28" height="8" rx="4"></rect>
+    <rect x="70" y="74" width="22" height="8" rx="4"></rect>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Tilmoch mark">
+  <defs>
+    <linearGradient id="tilmochGrad" x1="14" y1="40" x2="110" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4FC3F7"></stop>
+      <stop offset="0.55" stop-color="#81D4FA"></stop>
+      <stop offset="1" stop-color="#4DD0E1"></stop>
+    </linearGradient>
+  </defs>
+  
+  <g fill="url(#tilmochGrad)">
+    <rect x="22" y="50" width="8" height="28" rx="4"></rect>
+    <rect x="34" y="38" width="8" height="52" rx="4"></rect>
+    <rect x="46" y="47" width="8" height="34" rx="4"></rect>
+    
+    <rect x="70" y="46" width="36" height="8" rx="4"></rect>
+    <rect x="70" y="60" width="28" height="8" rx="4"></rect>
+    <rect x="70" y="74" width="22" height="8" rx="4"></rect>
+  </g>
+</svg>

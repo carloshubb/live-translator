@@ -1,0 +1,21 @@
+# Node / Electron
+node_modules
+dist
+out
+.eslintcache
+*.log*
+
+# Python
+python/.venv
+__pycache__/
+*.pyc
+
+# Local artifacts
+*.mp3
+*.wav
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
